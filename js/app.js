@@ -23,11 +23,6 @@ switch (question1.toLowerCase()) {
 }
 
 
-
-
-
-
-
 var question2 = prompt("do you think i love food?");
 
 switch (question2.toLowerCase()) {
