@@ -1,6 +1,31 @@
 h1{
-    background-color: brown;
+    background-color: sandybrown ;
+    padding-bottom: 100 px;
+
 }
 p{
     background-color: burlywood;
+}
+#n1{
+
+font-size: medium;
+font-family: Arial, Helvetica, sans-serif;
+color:sienna;
+margin: 50px;
+padding: 100px;
+text-align: center;
+
+}
+body{
+    background-color: snow;
+}
+
+section{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color:sienna;
+    margin: 50px;
+    padding: 100px;
+    text-align: center;
+
 }
