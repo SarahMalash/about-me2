@@ -140,7 +140,7 @@ for (var car = 0; car <= 6; car++) {
         break;
     }
     //console.log(countryArray[car]);
-    var question7 = prompt("can you guess what is my draem car?");
+    var question7 = prompt("can you guess what is my draem car? Ex audi");
      question7 = question7.toLocaleLowerCase();
     if (question7 === carsArray[car]) {
         alert("you are right this is one of my dream cars");
