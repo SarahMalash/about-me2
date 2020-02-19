@@ -3,6 +3,7 @@ var score = 0
 var yourName = prompt("please enter your name:");
 alert(`HELLO HELLO ${yourName} LET US PLAY A LITTLE GISSING NAME`);
 
+function q1(){
 var question1 = prompt("do you think i am a hard worker?")
 
 switch (question1.toLowerCase()) {
@@ -23,8 +24,11 @@ switch (question1.toLowerCase()) {
         console.log("do you think i am a hard worker?", question1);
         break;
 }
+}
+q1();
 
 
+function q2(){
 var question2 = prompt("do you think i love food?");
 
 switch (question2.toLowerCase()) {
@@ -44,6 +48,10 @@ switch (question2.toLowerCase()) {
         console.log("do you think i love food?", question2);
         break;
 }
+}
+ q2();
+
+ function q3(){
 var question3 = prompt("do you think i am a family person?");
 
 switch (question3.toLowerCase()) {
@@ -63,6 +71,9 @@ switch (question3.toLowerCase()) {
         console.log("do you think i am a family person?", question3);
         break;
 }
+ }
+  q3();
+  function q4(){
 var question4 = prompt("do you think i am a pet owner?");
 
 switch (question4.toLowerCase()) {
@@ -84,6 +95,10 @@ switch (question4.toLowerCase()) {
         console.log("do you think i am a pet owner?", question4);
         break;
 }
+  }
+  q4();
+
+  function q5(){
 var question5 = prompt("do you think i can drive?");
 
 switch (question5.toLowerCase()) {
@@ -103,8 +118,10 @@ switch (question5.toLowerCase()) {
         console.log("do you think i can drive?", question5);
         break;
 }
+  }
+   q5();
 
-
+function q6(){
 for (var i = 0; i <= 4; i++) {
     var question6 = prompt("can you guess my age?");
     if (i == 4) {
@@ -113,7 +130,7 @@ for (var i = 0; i <= 4; i++) {
         break;
     }
 
-    if (question6 === 25) {
+    if (question6 == 25) {
         alert("THAT IS CORRECT!! WHAT ARE YOU A spiritual mediator!");
         console.log("can you guess my age?", question6)
         score++
@@ -131,8 +148,10 @@ for (var i = 0; i <= 4; i++) {
     }
 
 }
+}
+q6();
 
-
+function q7(){
 var carsArray = ["audi", "bmw", "kia", "tesla", "bently", "ford"];
 for (var car = 0; car <= 6; car++) {
     if (car == 6) {
@@ -150,6 +169,8 @@ for (var car = 0; car <= 6; car++) {
 
     }
 }
+}
+q7();
 alert(`THANK YOU ${yourName} I HOPE YOU ENJOYED OUR GAME AND YOUR SCORE IS ${score} OUT OF 7`);
 
 
