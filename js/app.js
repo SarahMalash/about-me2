@@ -10,18 +10,18 @@ function q1() {
         case 'yes':
         case 'y':
             alert("YOU ARE RIGHT!!!");
-            console.log("do you think i am a hard worker?", question1);
+           
             score++
 
             break;
         case 'no':
         case 'n':
             alert("SORYY, YOU ARE WRONG MY FRIEND IM A ROCK!!!! ");
-            console.log("do you think i am a hard worker?", question1);
+            
             break;
         default:
             alert("Please Try Again, it is a yes or no qusetion ");
-            console.log("do you think i am a hard worker?", question1);
+            
             break;
     }
 }
@@ -35,17 +35,17 @@ function q2() {
         case 'yes':
         case 'y':
             alert("YOU ARE RIGHT!!!");
-            console.log("do you think i love food?", question2);
+            
             score++
             break;
         case 'no':
         case 'n':
             alert("SORYY, YOU ARE WRONG MY FRIEND SO VERY WRONG!!!!! ");
-            console.log("do you think i love food?", question2);
+            
             break;
         default:
             alert("Please Try Again, it is a yes or no qusetion ");
-            console.log("do you think i love food?", question2);
+           
             break;
     }
 }
@@ -58,17 +58,17 @@ function q3() {
         case 'yes':
         case 'y':
             alert("YOU ARE RIGHT!!!");
-            console.log("do you think i am a family person?", question3);
+           
             score++
             break;
         case 'no':
         case 'n':
             alert("SORYY YOU ARE WRONG MY FRIEND I LOVE MY FAMILY!! ");
-            console.log("do you think i am a family person?", question3);
+            
             break;
         default:
             alert("Please Try Again, it is a yes or no qusetion ");
-            console.log("do you think i am a family person?", question3);
+           
             break;
     }
 }
@@ -80,19 +80,19 @@ function q4() {
         case 'yes':
         case 'y':
             alert("SORYY YOU ARE WRONG MY FRIEND ALTHOGH I LOVE ANIMALS!! ");
-            console.log("do you think i am a pet owner?", question4);
+            
 
             break;
         case 'no':
         case 'n':
 
             alert("YOU ARE RIGHT!!!");
-            console.log("do you think i am a pet owner?", question4);
+           
             score++
             break;
         default:
             alert("Please Try Again, it is a yes or no qusetion ");
-            console.log("do you think i am a pet owner?", question4);
+           
             break;
     }
 }
@@ -105,17 +105,17 @@ function q5() {
         case 'yes':
         case 'y':
             alert("YOU ARE RIGHT!!!");
-            console.log("do you think i can drive?", question5);
+            
             score++
             break;
         case 'no':
         case 'n':
             alert("SORYY YOU ARE WRONG MY FRIEND IM A GREAT DRIVER!! ");
-            console.log("do you think i can drive?", question5);
+            
             break;
         default:
             alert("Please Try Again, it is a yes or no qusetion ");
-            console.log("do you think i can drive?", question5);
+            
             break;
     }
 }
@@ -132,18 +132,18 @@ function q6() {
 
         if (question6 == 25) {
             alert("THAT IS CORRECT!! WHAT ARE YOU A spiritual mediator!");
-            console.log("can you guess my age?", question6)
+          
             score++
             break;
         }
         else if (question6 < 25) {
 
             alert("you are too low but thank you thoug!! try again");
-            console.log("can you guess my age?", question6)
+            
         }
         else if (question6 > 25) {
             alert("you are too high come on i am not that old!!");
-            console.log("can you guess my age?", question6);
+            
 
         }
 
@@ -158,13 +158,13 @@ function q7() {
             alert("you are out of attempts!! the right answers are: audi, bmw, kia, bently and ford ");
             break;
         }
-        //console.log(countryArray[car]);
+        
         var question7 = prompt("can you guess what is my draem car? Ex audi");
         question7 = question7.toLocaleLowerCase();
          for(var car1 =0 ; car1<= carsArray.length; car1++ ){
         if (question7 === carsArray[car1]) {
             alert("you are right this is one of my dream cars");
-            console.log("can you guess what is my draem car?", question7);
+            
             score++
             break;
 
